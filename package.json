@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@inertiajs/inertia": "^0.10.0",
+    "@inertiajs/inertia-vue3": "^0.5.1",
+    "@inertiajs/progress": "^0.2.6",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.4.9",
+    "@storybook/manager-webpack5": "^6.4.9",
+    "@storybook/vue3": "^6.4.9",
+    "@tailwindcss/forms": "^0.4.0",
+    "autoprefixer": "^10.4.0",
+    "axios": "^0.21",
+    "babel-loader": "^8.2.3",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "postcss": "^8.4.5",
+    "postcss-import": "^14.0.1",
+    "tailwindcss": "^3.0.7",
+    "vue": "^3.2.24",
+    "vue-loader": "^16.8.3"
+  },
+  "dependencies": {}
+}
