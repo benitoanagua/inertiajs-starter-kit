@@ -1,4 +1,3 @@
-import "tailwindcss/tailwind.css";
 import "../resources/css/app.css";
 
 export const parameters = {
